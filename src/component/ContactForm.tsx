@@ -2,10 +2,8 @@
 
 import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-
-// 🔥 If you also want to store in Firestore, keep your db import and logic here
-// import { db } from '@/app/firebase/confic'
-// import { collection, addDoc } from 'firebase/firestore'
+import { db } from '@/app/firebase/confic'
+import { collection, addDoc, serverTimestamp } from 'firebase/firestore'
 
 export default function ContactPage() {
   const [form, setForm] = useState({
@@ -34,7 +32,14 @@ export default function ContactPage() {
     setStatus('Sending...')
 
     try {
-      // 🔥 Send email to admin via API route
+      // First store in Firestore
+      await addDoc(collection(db, 'contacts'), {
+        ...form,
+        createdAt: serverTimestamp(),
+        status: 'submitted'
+      })
+
+      // Then send email via API route
       const res = await fetch('/api/send-email', {
         method: 'POST',
         headers: {
@@ -44,14 +49,11 @@ export default function ContactPage() {
       })
 
       if (res.ok) {
-        // ✅ If also storing to Firestore
-        // await addDoc(collection(db, 'contacts'), { ...form, createdAt: new Date() })
-
         setStatus('Message sent! Thank you.')
         setForm({ name: '', email: '', subject: '', message: '' })
         setTimeout(() => setStatus(''), 4000)
       } else {
-        setStatus('Failed to send. Please try again.')
+        setStatus('Message saved but email failed. We\'ll contact you soon.')
       }
     } catch (err) {
       console.error(err)
@@ -128,7 +130,13 @@ export default function ContactPage() {
                   initial={{ opacity: 0, y: 5 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: 5 }}
-                  className="mt-6 text-center text-indigo-700 font-medium select-none"
+                  className={`mt-6 text-center font-medium select-none ${
+                    status.includes('Thank you') 
+                      ? 'text-green-600' 
+                      : status.includes('failed') 
+                        ? 'text-amber-600' 
+                        : 'text-indigo-700'
+                  }`}
                 >
                   {status}
                 </motion.p>

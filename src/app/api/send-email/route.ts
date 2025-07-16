@@ -17,7 +17,7 @@ export async function POST(request: NextRequest) {
 
     // Admin email content
     await resend.emails.send({
-      from: 'Your Website <noreply@onresend.com>', // ✅ Change to your verified domain if available
+      from: 'onboarding@resend.dev', // ✅ Change to your verified domain if available
       to: ['prakashai7639@gmail.com', 'prakashvengad7575@gmail.com'], // ✅ Add your actual team emails
       subject: subject ? `New Form Submission: ${subject}` : `New Form Submission from ${name}`,
       html: `

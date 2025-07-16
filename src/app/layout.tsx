@@ -5,6 +5,7 @@ import Footer from '../component/footer'
 import Header from '../component/header'
 import { body, image } from 'framer-motion/client'
 import AIChatbot from '@/component/chartbot'
+import VoiceWidget from '@/component/VoiceWidget'
 
 export const metadata = {
   title: 'Prakash Venket',
@@ -25,6 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className="flex flex-col min-h-screen">
         <Header />
+        <VoiceWidget />
         <main className="flex-grow">{children}</main>
         <AIChatbot />
         <Footer /> {/* Only here */}
