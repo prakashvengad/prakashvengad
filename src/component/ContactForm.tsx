@@ -78,7 +78,7 @@ export default function ContactPage() {
             Have questions or want to work together? Fill out the form and I&apos;ll get back to you shortly.
           </p>
           <img
-            src="/images/contact-illustration.svg"
+            src="/images/contect2.jpg"
             alt="Contact illustration"
             className="mt-auto hidden md:block max-w-xs mx-auto"
           />

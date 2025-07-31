@@ -4,11 +4,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState, useEffect } from 'react'
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 
 export default function Header() {
   const pathname = usePathname()
   const [isScrolled, setIsScrolled] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const isActive = (path: string) => pathname === path
 
@@ -17,6 +18,11 @@ export default function Header() {
     window.addEventListener('scroll', onScroll)
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
+
+  // Close mobile menu when route changes
+  useEffect(() => {
+    setMobileMenuOpen(false)
+  }, [pathname])
 
   return (
     <motion.header
@@ -37,11 +43,12 @@ export default function Header() {
               width={80}
               height={80}
               priority
+              className="w-12 h-12 md:w-20 md:h-20"
             />
           </motion.div>
         </Link>
 
-        {/* Navigation Links */}
+        {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8 items-center font-medium text-white">
           {[
             { href: '/', label: 'Home' },
@@ -55,14 +62,67 @@ export default function Header() {
           ))}
         </nav>
 
-        {/* CTA Button */}
+        {/* Desktop CTA Button */}
         <Link
           href="/contact"
           className="hidden md:inline-block rounded-full bg-white py-2 px-6 font-semibold text-violet-600 hover:bg-gray-100 transition"
         >
           Get Start
         </Link>
+
+        {/* Mobile Menu Button */}
+        <button
+          className="md:hidden p-2 rounded-md text-white focus:outline-none"
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          aria-label="Toggle menu"
+        >
+          <svg
+            className="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            {mobileMenuOpen ? (
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            ) : (
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+            )}
+          </svg>
+        </button>
       </div>
+
+      {/* Mobile Menu */}
+      <AnimatePresence>
+        {mobileMenuOpen && (
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: 'auto' }}
+            exit={{ opacity: 0, height: 0 }}
+            transition={{ duration: 0.3, ease: 'easeInOut' }}
+            className="md:hidden overflow-hidden"
+          >
+            <div className="px-4 pb-4 space-y-4 bg-violet-700">
+              {[
+                { href: '/', label: 'Home' },
+                { href: '/about', label: 'About' },
+                { href: '/projects', label: 'Projects' },
+                { href: '/blog', label: 'Blog' },
+                { href: '/resume', label: 'Resume' },
+                { href: '/contact', label: 'Contact' },
+              ].map(({ href, label }) => (
+                <MobileNavLink key={href} href={href} label={label} active={isActive(href)} />
+              ))}
+              <Link
+                href="/contact"
+                className="block w-full text-center rounded-full bg-white py-2 px-6 font-semibold text-violet-600 hover:bg-gray-100 transition"
+              >
+                Get Start
+              </Link>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </motion.header>
   )
 }
@@ -90,6 +150,20 @@ const NavLink = ({ href, label, active }: NavLinkProps) => {
           ${active ? 'w-full' : 'w-0'}
         `}
       />
+    </Link>
+  )
+}
+
+const MobileNavLink = ({ href, label, active }: NavLinkProps) => {
+  return (
+    <Link href={href}>
+      <div
+        className={`block px-4 py-3 rounded-lg transition-colors duration-300 ${
+          active ? 'bg-violet-600 text-white font-semibold' : 'text-white/90 hover:bg-violet-600'
+        }`}
+      >
+        {label}
+      </div>
     </Link>
   )
 }

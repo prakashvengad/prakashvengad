@@ -44,11 +44,11 @@ export default function Footer() {
   }
 
   return (
-    <footer className="bg-violet-600 text-white py-8">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row justify-between items-start gap-8">
+    <footer className="bg-violet-600 text-white py-8 px-4">
+      <div className="container mx-auto">
+        <div className="flex flex-col lg:flex-row justify-between items-start gap-8">
           {/* Newsletter Section */}
-          <div className="w-full md:w-1/3">
+          <div className="w-full lg:w-1/3">
             <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
               <Mail size={20} /> Newsletter
             </h3>
@@ -60,18 +60,18 @@ export default function Footer() {
                 Thank you for subscribing!
               </div>
             ) : (
-              <form onSubmit={handleSubmit} className="flex gap-2">
+              <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2">
                 <input
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Your email address"
-                  className="bg-white flex-grow px-4 py-2 rounded-md text-gray-800 border border-white focus:outline-none focus:ring-2  "
+                  className="bg-white flex-grow px-4 py-2 rounded-md text-gray-800 border border-white focus:outline-none focus:ring-2 focus:ring-violet-300"
                   required
                 />
                 <button
                   type="submit"
-                  className="bg-white text-violet-600 px-4 py-2 rounded-md font-medium hover:bg-violet-100 transition"
+                  className="bg-white text-violet-600 px-4 py-2 rounded-md font-medium hover:bg-violet-100 transition whitespace-nowrap"
                 >
                   Subscribe
                 </button>
@@ -80,9 +80,9 @@ export default function Footer() {
           </div>
 
           {/* Social Links Section */}
-          <div className="w-full md:w-2/3 flex flex-col items-end">
-            <div className="text-lg font-semibold mb-4">Social Media links</div>
-            <div className="flex space-x-6">
+          <div className="w-full lg:w-2/3">
+            <div className="text-lg font-semibold mb-4">Connect With Me</div>
+            <div className="flex flex-wrap gap-4 sm:gap-6 justify-start lg:justify-end">
               <SocialLink
                 href="https://www.facebook.com/share/19iV5TEs4J/"
                 label="Facebook"
@@ -128,9 +128,10 @@ function SocialLink({ href, label, icon }: SocialLinkProps) {
       aria-label={label}
       target="_blank"
       rel="noopener noreferrer"
-      className="hover:text-gray-300 transition"
+      className="hover:text-gray-300 transition flex items-center gap-2 p-2 sm:p-0"
     >
       {icon}
+      <span className="text-sm sm:hidden">{label}</span>
     </a>
   )
 }
