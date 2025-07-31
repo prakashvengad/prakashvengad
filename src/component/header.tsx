@@ -44,18 +44,12 @@ export default function Header({ bgTransparent = true, isOverlay = false }: Head
         }`}
     >
       <div className="container mx-auto flex justify-between items-center px-4 py-4 text-white">
-        {/* Logo */}
-        <Link href="/">
-          <motion.div whileHover={{ scale: 1.05 }} className="cursor-pointer">
-            <Image
-              src="/images/iconlogo.png"
-              alt="Logo"
-              width={80}
-              height={80}
-              priority
-              className="w-12 h-12 md:w-20 md:h-20"
-            />
-          </motion.div>
+
+        <Link
+          href="/contact"
+          className="hidden md:inline-block rounded-full bg-white py-2 px-6 font-semibold text-violet-600 hover:bg-gray-100 transition"
+        >
+          Get Start
         </Link>
 
         {/* Desktop Navigation */}
@@ -71,14 +65,34 @@ export default function Header({ bgTransparent = true, isOverlay = false }: Head
             <NavLink key={href} href={href} label={label} active={isActive(href)} />
           ))}
         </nav>
+        {/* Search bar (visible on desktop only) */}
+        <div className="hidden md:flex items-center space-x-2">
+          <input
+            type="text"
+            placeholder="Search..."
+            className="bg-white rounded-full px-4 py-1 text-sm text-gray-800 focus:outline-none"
+          />
+          <button className="text-white hover:text-gray-200">
+            <svg
+              className="w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth={2}
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1110.5 3a7.5 7.5 0 016.15 13.65z"
+              />
+            </svg>
+          </button>
+        </div>
+
 
         {/* Desktop CTA Button */}
-        <Link
-          href="/contact"
-          className="hidden md:inline-block rounded-full bg-white py-2 px-6 font-semibold text-violet-600 hover:bg-gray-100 transition"
-        >
-          Get Start
-        </Link>
+
 
         {/* Mobile Menu Button */}
         <button

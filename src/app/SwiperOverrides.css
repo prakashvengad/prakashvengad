@@ -1,0 +1,15 @@
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: white !important;
+}
+/* Custom Swiper pagination styles */
+.swiper-pagination-bullet {
+  background-color: #d1d5db; /* Tailwind gray-300 */
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white; /* Black */
+}
+

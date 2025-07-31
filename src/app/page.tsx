@@ -9,6 +9,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import Header from '@/component/header'
+import './SwiperOverrides.css'; 
 
 export default function HomePage() {
 
@@ -60,7 +61,7 @@ export default function HomePage() {
 
   return (
     <>
-      <Header bgTransparent={false} isOverlay={false} />
+    
       <div className="relative w-full h-[600px] mt-[100px]">
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
@@ -94,7 +95,7 @@ export default function HomePage() {
                     <div className="flex flex-row flex-wrap justify-center md:justify-end gap-4">
                       <a
                         href={slide.button1.link}
-                        className="px-5 py-3 bg-secondary text-black hover:bg-gray-200 rounded-full font-semibold text-sm"
+                        className="bg-purple px-5 py-3 bg-secondary text-black hover:bg-gray-200 rounded-full font-semibold text-sm"
                       >
                         {slide.button1.text}
                       </a>
