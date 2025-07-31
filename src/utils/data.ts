@@ -6,5 +6,8 @@ export const projects = [
     image: "/images/portfolio.png",
     link: "https://myportfolio.com"
   },
-  ...
-];
+  {
+    title: "prakash",
+    description: "this is my portfolio website"
+  }
+]

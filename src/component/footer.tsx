@@ -4,31 +4,7 @@ import { Facebook, Instagram, Linkedin, Github, Mail } from 'lucide-react'
 import React, { useState } from 'react'
 
 // Custom placeholder SVG icons for Indeed and Nacreen
-const IndeedIcon = () => (
-  <svg
-    role="img"
-    viewBox="0 0 24 24"
-    fill="currentColor"
-    xmlns="http://www.w3.org/2000/svg"
-    className="w-5 h-5"
-  >
-    <title>Indeed</title>
-    <circle cx="12" cy="12" r="10" />
-  </svg>
-)
 
-const NacreenIcon = () => (
-  <svg
-    role="img"
-    viewBox="0 0 24 24"
-    fill="currentColor"
-    xmlns="http://www.w3.org/2000/svg"
-    className="w-5 h-5"
-  >
-    <title>Nacreen</title>
-    <rect width="20" height="20" x="2" y="2" rx="4" />
-  </svg>
-)
 
 export default function Footer() {
   const [email, setEmail] = useState('')

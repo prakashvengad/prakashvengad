@@ -1,6 +1,5 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import Header from '@/component/header'
 import Footer from '@/component/footer'
 import PersonalAssistantChat from '@/component/chartbot'
 

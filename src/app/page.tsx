@@ -3,7 +3,6 @@
 import Link from 'next/link'
 import { Typewriter } from 'react-simple-typewriter'
 import { motion } from 'framer-motion'
-import AboutSection from '@/component/AboutSection'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';

@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { db } from '@/app/firebase/confic'
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore'
+import Image from 'next/image';
 
 export default function ContactPage() {
   const [form, setForm] = useState({
@@ -77,11 +78,7 @@ export default function ContactPage() {
           <p className="text-lg opacity-90 max-w-md">
             Have questions or want to work together? Fill out the form and I&apos;ll get back to you shortly.
           </p>
-          <img
-            src="/images/contect2.jpg"
-            alt="Contact illustration"
-            className="mt-auto hidden md:block max-w-xs mx-auto"
-          />
+          <Image src="/path/image.jpg" alt="something" width={400} height={300} className="mt-auto hidden md:block max-w-xs mx-auto" />
         </div>
 
         {/* Right side */}
