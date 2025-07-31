@@ -183,7 +183,7 @@ const LandingInput = ({
         placeholder={placeholder}
         className="rounded-lg border border-gray-300 px-5 py-3 placeholder-gray-400
           focus:outline-none focus:ring-4 focus:ring-indigo-400 focus:ring-opacity-50
-          transition-shadow duration-300"
+          transition-shadow duration-300 text-gray-900" // Added text-gray-900 for black text
         autoComplete="off"
       />
     </div>
@@ -222,7 +222,7 @@ const LandingTextarea = ({
         placeholder={placeholder}
         className="rounded-lg border border-gray-300 px-5 py-3 placeholder-gray-400
           focus:outline-none focus:ring-4 focus:ring-indigo-400 focus:ring-opacity-50
-          transition-shadow duration-300 resize-none"
+          transition-shadow duration-300 resize-none text-gray-900" // Added text-gray-900 for black text
       />
     </div>
   )

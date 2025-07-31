@@ -81,7 +81,6 @@ export default function Footer() {
 
           {/* Social Links Section */}
           <div className="w-full lg:w-2/3">
-            <div className="text-lg font-semibold mb-4">Connect With Me</div>
             <div className="flex flex-wrap gap-4 sm:gap-6 justify-start lg:justify-end">
               <SocialLink
                 href="https://www.facebook.com/share/19iV5TEs4J/"

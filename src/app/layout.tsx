@@ -1,35 +1,23 @@
-// app/layout.tsx
-
 import './globals.css'
-import Footer from '../component/footer'
-import Header from '../component/header'
-import { body, image } from 'framer-motion/client'
-import AIChatbot from '@/component/chartbot'
-import VoiceWidget from '@/component/VoiceWidget'
+import { Inter } from 'next/font/google'
+import Header from '@/component/header'
+import Footer from '@/component/footer'
+import PersonalAssistantChat from '@/component/chartbot'
+
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Prakash Venket',
-  description: 'Portfolio website',
-    icons: {
-    icon: '/images/iconlogo.png',  // <-- add your favicon path here
-    // you can also add shortcut or apple icons if you want:
-    shortcut: '/images/iconlogo.png',
-    apple: '/images/iconlogo.png',
-  },
-  openGraph: {
-    images: ['/images/iconlogo.png'],  // for social cards
-  },
+  title: 'Your Site Title',
+  description: 'Description of your site',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="flex flex-col min-h-screen">
-        <Header />
-        <VoiceWidget />
-        <main className="flex-grow">{children}</main>
-        <AIChatbot />
-        <Footer /> {/* Only here */}
+      <body className={inter.className}>
+        {children}
+        <PersonalAssistantChat />
+        <Footer />
       </body>
     </html>
   )

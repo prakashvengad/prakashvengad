@@ -6,7 +6,12 @@ import { usePathname } from 'next/navigation'
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
-export default function Header() {
+interface HeaderProps {
+  bgTransparent?: boolean
+  isOverlay?: boolean
+}
+
+export default function Header({ bgTransparent = true, isOverlay = false }: HeaderProps) {
   const pathname = usePathname()
   const [isScrolled, setIsScrolled] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -25,13 +30,18 @@ export default function Header() {
   }, [pathname])
 
   return (
+
     <motion.header
       initial={{ opacity: 0, y: -30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: 'easeOut' }}
-      className={`fixed top-0 w-full z-50 transition-colors duration-300 ${
-        isScrolled ? 'bg-violet-700 shadow-lg' : 'bg-violet-600'
-      }`}
+      className={`transition-colors duration-300 z-50 w-full ${isOverlay ? 'absolute top-0' : 'fixed top-0'
+        } ${isScrolled
+          ? 'bg-violet-700 shadow-lg'
+          : bgTransparent
+            ? 'bg-transparent'
+            : 'bg-violet-600'
+        }`}
     >
       <div className="container mx-auto flex justify-between items-center px-4 py-4 text-white">
         {/* Logo */}
@@ -137,9 +147,8 @@ const NavLink = ({ href, label, active }: NavLinkProps) => {
   return (
     <Link href={href} className="relative group">
       <span
-        className={`relative z-10 transition-colors duration-300 ${
-          active ? 'text-white font-semibold' : 'text-white/80'
-        } group-hover:text-white`}
+        className={`relative z-10 transition-colors duration-300 ${active ? 'text-white font-semibold' : 'text-white/80'
+          } group-hover:text-white`}
       >
         {label}
       </span>
@@ -158,9 +167,8 @@ const MobileNavLink = ({ href, label, active }: NavLinkProps) => {
   return (
     <Link href={href}>
       <div
-        className={`block px-4 py-3 rounded-lg transition-colors duration-300 ${
-          active ? 'bg-violet-600 text-white font-semibold' : 'text-white/90 hover:bg-violet-600'
-        }`}
+        className={`block px-4 py-3 rounded-lg transition-colors duration-300 ${active ? 'bg-violet-600 text-white font-semibold' : 'text-white/90 hover:bg-violet-600'
+          }`}
       >
         {label}
       </div>
