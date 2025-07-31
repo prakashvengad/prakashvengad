@@ -8,7 +8,7 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import Header from '@/component/header'
+
 import './SwiperOverrides.css'; 
 
 export default function HomePage() {
@@ -61,7 +61,7 @@ export default function HomePage() {
 
   return (
     <>
-    
+
       <div className="relative w-full h-[600px] mt-[100px]">
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
