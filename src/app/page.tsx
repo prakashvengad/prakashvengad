@@ -10,6 +10,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 import './SwiperOverrides.css'; 
+import Head from 'next/head';
 
 export default function HomePage() {
 
@@ -61,6 +62,14 @@ export default function HomePage() {
 
   return (
     <>
+    <Head>
+        <title>Prakash Vengad | Full-Stack Developer</title>
+        <meta name="description" content="Explore Prakash Vengad's portfolio — Full Stack Developer specializing in React, .NET, Firebase and more." />
+        <meta name="keywords" content="Prakash Vengad, Developer, Full Stack, React, Firebase, .NET" />
+        <meta name="author" content="Prakash Vengad" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://prakashvengad.netlify.app/" />
+      </Head>
 
       <div className="relative w-full h-[600px] mt-[100px]">
         <Swiper

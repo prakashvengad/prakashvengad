@@ -4,7 +4,9 @@ import Footer from '@/component/footer'
 import PersonalAssistantChat from '@/component/chartbot'
 import Header from '@/component/header'
 
+
 const inter = Inter({ subsets: ['latin'] })
+
 
 export const metadata = {
   title: 'Your Site Title',
