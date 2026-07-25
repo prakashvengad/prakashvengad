@@ -1,7 +1,7 @@
 <h1 align="center">
 Hi 👋 I'm Prakash
 </h1>
-
+<img align="right" width="380" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif"/>
 <h3 align="center">
 Full Stack Developer | React | Next.js | .NET | Sitecore | AI Applications
 </h3>
