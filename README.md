@@ -1,202 +1,146 @@
-<h1 align="center">
-Hi 👋 I'm Prakash
-</h1>
-<img align="right" width="380" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif"/>
-<h3 align="center">
-Full Stack Developer | React | Next.js | .NET | Sitecore | AI Applications
-</h3>
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+            PRAKASH
+
+      Full Stack Developer
+
+React • Next.js • .NET • AI • Sitecore
+
+Building Modern Applications
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=34&duration=2500&pause=800&color=00F7FF&center=true&vCenter=true&width=900&lines=Hi+I'm+Prakash;Full+Stack+Developer;React+Developer;Next.js+Developer;AI+Application+Developer;Open+Source+Enthusiast;Welcome+to+My+GitHub"/>
+</p>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=gradient&customColorList=12,20,24,30&section=header&text=Prakash&fontSize=55&fontColor=ffffff"/>
 
 <p align="center">
 
-Building modern web applications, AI-powered solutions and scalable enterprise software.
+<a href="#">
+<img src="https://img.shields.io/badge/Portfolio-Live-blue?style=for-the-badge&logo=vercel"/>
+</a>
+
+<a href="#">
+<img src="https://img.shields.io/badge/LinkedIn-Follow-blue?style=for-the-badge&logo=linkedin"/>
+</a>
+
+<a href="#">
+<img src="https://img.shields.io/badge/Instagram-Follow-pink?style=for-the-badge&logo=instagram"/>
+</a>
+
+<a href="#">
+<img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail"/>
+</a>
 
 </p>
 
----
+<p align="center">
 
-## 🚀 About Me
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,dotnet,ts,js,tailwind,firebase,git,github,vscode,figma,postman,mongodb,mysql"/>
 
-- 💻 Full Stack Developer
-- ⚛ React & Next.js Developer
-- 🔥 .NET Developer
-- 🌐 Sitecore CMS Developer
-- 📱 Capacitor Mobile App Developer
-- 🤖 AI Application Builder
-- ☁ Firebase & Cloud Integration
-- 🎯 Open to Software Engineer Opportunities
+</p>
 
----
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=YOUR_USERNAME&theme=tokyonight"/>
 
-## 🛠 Tech Stack
+<p align="center">
 
-### Frontend
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
-![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss)
-![Angular](https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular)
+<img height="180" src="https://github-readme-streak-stats.herokuapp.com?user=YOUR_USERNAME&theme=tokyonight"/>
 
----
+</p>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=radical"/>
+<p align="center">
+<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg"/>
+</p>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=react-dark"/>
 
-### Backend
+┌─────────────────────────┐
+│ ⚛ React                 │
+│ ████████████████ 95%    │
+└─────────────────────────┘
 
-![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)
+┌─────────────────────────┐
+│ ▲ Next.js               │
+│ ███████████████ 92%     │
+└─────────────────────────┘
 
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet)
+┌─────────────────────────┐
+│ 🔷 TypeScript           │
+│ █████████████ 88%       │
+└─────────────────────────┘
 
----
+🚀 Full Stack Developer
 
-### Database
+💻 React & Next.js
 
-![SQL Server](https://img.shields.io/badge/SQL_Server-red?style=for-the-badge)
-![Firebase](https://img.shields.io/badge/Firebase-yellow?style=for-the-badge&logo=firebase)
+⚙ .NET Backend
 
----
+🌍 Sitecore CMS
 
-### Mobile
+📱 Capacitor Mobile Apps
 
-![Capacitor](https://img.shields.io/badge/Capacitor-blue?style=for-the-badge)
+🤖 AI Application Development
 
----
+☁ Firebase
 
-### CMS
+🔥 Modern UI/UX
 
-![Sitecore](https://img.shields.io/badge/Sitecore-red?style=for-the-badge)
+🎯 Building Scalable Applications
 
----
+<img align="right" width="380" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif"/>
 
-### Tools
+━━━━━━━━━━━━━━━━━━━━━━━
 
-Git
+🛒 BestBazaar
 
-GitHub
-
-VS Code
-
-Postman
-
-Jira
-
-Azure DevOps
-
-Figma
-
----
-
-## 🔥 Featured Projects
-
-### 🛒 BestBazaar
-
-Modern Marketplace Platform
+Marketplace Application
 
 React
 
 Next.js
 
-Authentication
-
-Mobile App
-
 Firebase
 
-AI Features
-
----
-
-### 🌐 Portfolio Website
-
-Next.js
-
-TypeScript
-
-Tailwind CSS
-
-Animations
-
-SEO
-
----
-
-### 🤖 AI Chat Applications
-
-OpenAI
-
-Chat Interface
-
 Authentication
 
-Modern UI
+AI Search
 
----
+⭐ View Project
 
-### 📱 Mobile Applications
+━━━━━━━━━━━━━━━━━━━━━━━
 
-Capacitor
+<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile+Views&color=blueviolet&style=for-the-badge"/>
 
-Android
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&count_private=true"/>
 
-Notifications
+<h3 align="center">
 
-Google Login
+"Build. Learn. Share. Repeat."
 
-Camera
+</h3>
 
----
+🚀 Projects
 
-## 📈 GitHub Stats
+⚛ React
 
-<p align="center">
+🔥 Trending
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
+🌎 Open Source
 
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight"/>
+🎯 Goals
 
-</p>
+💻 Development
 
----
+📱 Mobile
 
-## 💻 Most Used Languages
+☁ Cloud
 
-<p align="center">
+🤖 AI
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight"/>
+⚡ Performance
 
-</p>
+🎨 UI
 
----
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=algolia"/>
-
-</p>
-
----
-
-## 🌱 Currently Learning
-
-- AI Development
-- Enterprise Architecture
-- Cloud Deployment
-- Authentication Systems
-- Performance Optimization
-
----
-
-## 📫 Connect With Me
-
-LinkedIn
-
-Portfolio
-
-Email
-
----
-
-## 💬 Favorite Quote
-
-"Code. Learn. Build. Improve. Repeat."
+📊 Analytics
