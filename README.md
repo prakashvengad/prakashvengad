@@ -242,7 +242,6 @@ buy and sell products through a modern web and mobile experience.
 
 ### ✨ Key Features
 
-```text
 🔎 Smart Search
 📍 Location-Based Listings
 🛍️ Product Marketplace
@@ -265,7 +264,6 @@ Search      → Elasticsearch
 
 <div align="center">
 
-```text
                     ┌─────────────────────┐
                     │      Users          │
                     │ Web • Mobile • API  │
@@ -303,7 +301,6 @@ Search      → Elasticsearch
 
 <div align="center">
 
-```text
        💻 Development
               │
               ▼
@@ -411,7 +408,6 @@ Search      → Elasticsearch
 
 <div align="center">
 
-```text
         THINK
           ↓
        DESIGN
