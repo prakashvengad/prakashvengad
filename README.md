@@ -1,4 +1,33 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=gradient&customColorList=12,20,24,30&section=header&text=Prakash&fontSize=55&fontColor=ffffff"/>
+<div align="center">
+
+<img
+  width="100%"
+  src="https://capsule-render.vercel.app/api?type=waving&height=320&color=gradient&customColorList=12,20,24,30&section=header&text=HELLO,%20I'M%20PRAKASH&fontSize=52&fontColor=ffffff&fontAlign=50&fontAlignY=40&desc=FULL%20STACK%20DEVELOPER&descSize=21&descAlign=50&descAlignY=58&animation=fadeIn"
+/>
+
+<h3>
+React.js • Next.js • TypeScript • Node.js • .NET • Sitecore • Cloud • DevOps
+</h3>
+
+<p>
+Building scalable web applications, enterprise solutions and modern cloud experiences.
+</p>
+
+<br/>
+
+<a href="https://github.com/YOUR_USERNAME">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/in/YOUR_LINKEDIN">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="YOUR_PORTFOLIO_URL">
+<img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
+</div>
 <p align="center">
 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=34&duration=2500&pause=800&color=00F7FF&center=true&vCenter=true&width=900&lines=Hi+I'm+Prakash;Full+Stack+Developer;React+Developer;Next.js+Developer;AI+Application+Developer;Open+Source+Enthusiast;Welcome+to+My+GitHub"/>
 </p>
