@@ -5,8 +5,6 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=gradient&customColorList=12,20,24,30&section=header&text=Prakash&fontSize=55&fontColor=ffffff"/>
 
-### 👨‍💻 When I code, I rely on
-
 <p>
 <img src="https://img.shields.io/badge/React.js-20232A?style=flat&logo=react&logoColor=61DAFB" />
 <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white" />
