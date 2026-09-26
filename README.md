@@ -91,3 +91,383 @@
 <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white" />
 <img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat&logo=netlify&logoColor=white" />
 </p>
+
+<br/>
+
+<div align="center">
+
+<img
+  src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=850&lines=Building+Modern+Web+Applications;Creating+Scalable+Full+Stack+Solutions;Developing+Cloud+%26+DevOps+Solutions;Exploring+AI+Powered+Applications;Building+Headless+CMS+Experiences;Always+Learning+%7C+Always+Building"
+/>
+
+</div>
+<h2>👨‍💻 About Me</h2>
+
+<p>
+I'm a <strong>Full Stack Developer</strong> passionate about building
+modern, scalable and high-performance applications.
+</p>
+
+<p>
+I work across the complete application lifecycle — from
+<strong>UI development and API architecture</strong> to
+<strong>databases, cloud infrastructure, CI/CD and deployment.</strong>
+</p>
+
+<ul>
+  <li>🚀 Building modern applications with React.js and Next.js</li>
+  <li>⚙️ Developing APIs with Node.js, Express.js and .NET Core</li>
+  <li>🧩 Working with Sitecore, WordPress and Headless CMS</li>
+  <li>☁️ Exploring AWS and Azure cloud architecture</li>
+  <li>🐳 Working with Docker, Kubernetes and CI/CD</li>
+  <li>🏗️ Designing REST APIs and Microservices</li>
+  <li>📱 Building cross-platform applications with Capacitor</li>
+  <li>🤖 Exploring AI-powered application development</li>
+</ul>
+<h2>🚀 What I Build</h2>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3>🌐 Modern Web Applications</h3>
+
+<p>
+React.js • Next.js • TypeScript
+</p>
+
+<p>
+Responsive, scalable and high-performance web applications
+with modern frontend architecture.
+</p>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3>⚙️ Backend & APIs</h3>
+
+<p>
+Node.js • Express.js • .NET Core • C#
+</p>
+
+<p>
+Secure REST APIs, authentication, authorization,
+microservices and backend integrations.
+</p>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+<h3>🧩 Enterprise CMS</h3>
+
+<p>
+Sitecore • WordPress • Payload CMS
+</p>
+
+<p>
+Headless CMS implementations and modern
+content-driven digital experiences.
+</p>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3>☁️ Cloud & DevOps</h3>
+
+<p>
+AWS • Azure • Docker • Kubernetes • Terraform
+</p>
+
+<p>
+Cloud deployments, CI/CD pipelines,
+containerization and infrastructure automation.
+</p>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+<h3>📱 Mobile Applications</h3>
+
+<p>
+React • Capacitor • Firebase
+</p>
+
+<p>
+Cross-platform mobile applications,
+push notifications and native integrations.
+</p>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3>🤖 AI & Search</h3>
+
+<p>
+AI APIs • Elasticsearch • Intelligent Search
+</p>
+
+<p>
+Exploring AI-powered features, search,
+recommendations and automation.
+</p>
+
+</td>
+</tr>
+</table>
+<h2>🛒 Featured Project</h2>
+
+<div align="center">
+
+<h3>🚀 BestBazaar</h3>
+
+<p>
+<strong>Modern Second-Hand Marketplace Platform</strong>
+</p>
+
+<p>
+A marketplace application designed for users to discover,
+buy and sell products through a modern web and mobile experience.
+</p>
+
+</div>
+
+### ✨ Key Features
+
+```text
+🔎 Smart Search
+📍 Location-Based Listings
+🛍️ Product Marketplace
+👤 User Authentication
+⭐ Reviews & Ratings
+🔔 Push Notifications
+📱 Mobile Application
+🏷️ Categories & Filters
+🔐 Secure Authentication
+📊 Seller Management
+
+Frontend    → React • Next.js • TypeScript • Tailwind CSS
+Backend     → Node.js • .NET • REST APIs
+Database    → SQL Server
+Mobile      → Capacitor
+Cloud       → Firebase • Vercel
+Search      → Elasticsearch
+
+<h2>🏗️ Application Architecture</h2>
+
+<div align="center">
+
+```text
+                    ┌─────────────────────┐
+                    │      Users          │
+                    │ Web • Mobile • API  │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │     Frontend        │
+                    │ React • Next.js     │
+                    │ Vue • Angular       │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │      API Layer      │
+                    │ REST • Auth • Cache  │
+                    └──────────┬──────────┘
+                               │
+                    ┌──────────┴──────────┐
+                    ▼                     ▼
+             ┌──────────────┐      ┌──────────────┐
+             │  Node.js     │      │   .NET Core  │
+             │  Express     │      │   C# / MVC   │
+             └──────┬───────┘      └──────┬───────┘
+                    │                     │
+                    └──────────┬──────────┘
+                               ▼
+                    ┌─────────────────────┐
+                    │    Data & Search    │
+                    │ SQL • PostgreSQL    │
+                    │ MySQL • Elasticsearch│
+                    └─────────────────────┘
+					
+<h2>⚙️ DevOps & Deployment</h2>
+
+<div align="center">
+
+```text
+       💻 Development
+              │
+              ▼
+          🔀 Git / GitHub
+              │
+              ▼
+        🧪 Automated Tests
+              │
+              ▼
+          🔨 CI Pipeline
+              │
+              ▼
+        🐳 Docker Build
+              │
+              ▼
+      ☸️ Kubernetes / Cloud
+              │
+              ▼
+        🚀 Deployment
+              │
+              ▼
+       📊 Monitoring
+	   
+	   
+<div align="center">
+
+<img src="https://img.shields.io/badge/CI%2FCD-Automated-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-Containerized-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kubernetes-Orchestration-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/>
+<img src="https://img.shields.io/badge/Terraform-IaC-844FBA?style=flat-square&logo=terraform&logoColor=white"/>
+
+</div>
+
+<h2>📊 GitHub Analytics</h2>
+
+<div align="center">
+
+<img
+  height="180"
+  src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"
+/>
+
+<img
+  height="180"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true"
+/>
+
+</div>
+
+<h2>🔥 GitHub Streak</h2>
+
+<div align="center">
+
+<img
+  src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true"
+/>
+
+</div>
+
+<h2>🏆 GitHub Achievements</h2>
+
+<div align="center">
+
+<img
+  src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6"
+/>
+
+</div>
+
+<h2>📈 Contribution Activity</h2>
+
+<div align="center">
+
+<img
+  src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night&hide_border=true"
+/>
+
+</div>
+
+<h2>🐍 Contribution Snake</h2>
+
+<div align="center">
+
+<img
+  src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg"
+  alt="GitHub Contribution Snake"
+/>
+
+</div>
+
+<h2>📚 Currently Learning</h2>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/AI%20Engineering-Exploring-7C3AED?style=flat-square"/>
+<img src="https://img.shields.io/badge/Cloud%20Architecture-Exploring-2563EB?style=flat-square"/>
+<img src="https://img.shields.io/badge/Kubernetes-Exploring-326CE5?style=flat-square"/>
+<img src="https://img.shields.io/badge/Terraform-Exploring-844FBA?style=flat-square"/>
+<img src="https://img.shields.io/badge/DevOps-Improving-0078D7?style=flat-square"/>
+<img src="https://img.shields.io/badge/AI%20Applications-Building-FF6F00?style=flat-square"/>
+
+</div>
+
+<h2>💡 Development Philosophy</h2>
+
+<div align="center">
+
+```text
+        THINK
+          ↓
+       DESIGN
+          ↓
+        BUILD
+          ↓
+        TEST
+          ↓
+       DEPLOY
+          ↓
+       IMPROVE
+          ↓
+        REPEAT
+		
+		
+<h2>🌐 Let's Connect</h2>
+
+<div align="center">
+
+<p>
+I'm always interested in connecting with developers,
+teams and people working on interesting technology projects.
+</p>
+
+<a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="YOUR_PORTFOLIO_URL">
+<img src="https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+</a>
+
+<a href="mailto:YOUR_EMAIL@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://www.instagram.com/YOUR_INSTAGRAM_USERNAME">
+<img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+</a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img
+  src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=700&lines=Thanks+for+visiting+my+GitHub!;Keep+Building+%F0%9F%9A%80;Keep+Learning+%F0%9F%93%9A;Keep+Creating+%F0%9F%92%A1"
+/>
+
+<br/><br/>
+
+⭐ <strong>Explore my repositories and projects</strong>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile%20Views&color=7C3AED&style=flat-square"/>
+
+</div>
